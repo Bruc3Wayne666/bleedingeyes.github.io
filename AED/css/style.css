@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #A9C4ED;
+	margin: 0;
+	padding: 0;
+	padding-top: 70px;
+	color: black;
+	font-family: sans-serif;
+}
+
+.header {
+	margin-right: 375px;
+	margin-left: 375px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.logo {
+	margin: 0;
+	padding: 0;
+	width: 260px;
+	height: 100;
+}
+
+.main-nav {
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+}
+
+.item {
+	text-align: justify;
+}
+
+.item-link {
+	color: black;
+	text-decoration: none;
+	margin: 0 11px;
+}
+
+.phone {
+	margin-left: 80px;
+}
+
+.phone-pic {
+	width: 20px;
+	height: 20px;
+}
+
+.phone-num {
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.cash-count {
+	margin-left: 100px;
+	height: 60px;
+	width: 200px;
+	display: flex;
+}
+
+.cart-av {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: relative;
+	background-color: black;
+}
+
+.cart {
+	background-color: white;
+	margin: 0;
+	color: white;
+	width: 33px;
+	height: 31px;
+	position: absolute;
+	top: 50%;                         
+  transform: translate(0, -50%);
+}
+
+.section {
+	margin-right: 375px;
+	margin-left: 375px;
+	height: 500px;
+	display: flex;
+	margin-bottom: 90px;
+}
+
+.best {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 61px;
+	color: #000000;
+}
+
+.rew {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 39px;
+	color: #000000;
+}
+
+.section-btn {
+	margin-right: 375px;
+	margin-left: 375px;
+	justify-content: space-between;
+}
+
+.btn-1 {
+	width: 370px;
+	height: 100px;
+	border-radius: 22px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 59px;
+	border: none;
+	background: linear-gradient(99.87deg, rgba(188, 178, 218, 0.83) 32.36%, rgba(179, 132, 132, 0.664) 62.33%);
+}
+
+.btn-2 {
+  width: 370px;
+	height: 100px;
+	border-radius: 22px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 59px;
+	border: none;
+	background: linear-gradient(96.19deg, rgba(228, 73, 24, 0.9) 27.55%, rgba(44, 79, 204, 0.91) 77.51%);
+}
+
+.btn-3 {
+  width: 370px;
+	height: 100px;
+	border-radius: 22px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 59px;
+	border: none;
+	background: linear-gradient(259.1deg, #91D935 18.22%, #B77335 63.23%);
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.down {
+	width: 44px;
+	height: 44px;
+	align-items: center;
+}
